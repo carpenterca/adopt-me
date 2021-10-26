@@ -1,0 +1,15 @@
+// not needed since we are using parcel 2
+{
+   "presets": [
+      // [
+      //    "@babel/preset-react",
+      //    {
+      //       "runtime": "automatic"
+      //    }
+      // ],
+      // "@babel/preset-env"
+   ],
+   "plugins": ["@babel/plugin-proposal-class-properties"] // used in live .babelrc file
+}
+
+// Needed to add additional rules to the .eslintrc.json to get babel and eslint to play nice
